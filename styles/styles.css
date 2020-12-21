@@ -1,0 +1,272 @@
+.display-none{
+    display: none;
+}
+.display-block{
+    display: block;
+}
+
+/* --------------------------------Pagina 1 --------------------------------*/
+.page1-background{
+    background-image: url(./images/page1-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container{
+    height: 100vh;
+  }
+
+.info-game{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.logo{
+    height: 200px;
+}
+
+.text-info-game {
+    color: rgb(76, 75, 75);
+    margin: 0px;
+}
+
+.btn-start-game{
+    width: 23rem;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-start-game:hover {
+    background-color: rgb(201, 201, 201);
+    color:rgb(95, 95, 95);
+}
+
+.input-group-custom{
+    width: 360px;
+}
+
+.info-game a {
+    color:grey;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 230px;
+}
+
+.full-size-alert{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(14, 14, 14, 0.4);
+    z-index: 20;
+}
+/* --------------------------------Pagina 2 --------------------------------*/
+.page2-background{
+    height: 100vh;
+    background-image: url(./images/page2-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    opacity: 1;
+}
+
+.grey-stripe{
+    background-color: grey;
+    height: 400px;
+    position: absolute;
+    z-index: 3;
+}
+
+.carousel-custom{
+    width: 80%;
+    margin-left: 150px;
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+}
+
+.card-cusomt{
+    margin-left: 270px;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.horse-image {
+    height: 150px;
+    margin-top: 30px;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    color: grey;
+}
+
+.btn-choose-horse{
+    background-color: rgb(129, 129, 129);
+    color:white;
+    width: 120px;
+    border-radius: 12px;
+    font-size: 15px;
+}
+
+.btn-bet-horse{
+    background-color: rgb(101, 224, 113);
+    color:white;
+    width: 200px;
+    border-radius: 12px;
+    font-size: 15px;
+}
+
+.btn-disabled{
+    background-color: rgb(201, 251, 206);
+}
+
+.btn-disabled:hover{
+    color:white;
+}
+
+.btn-ir-pista{
+    width: 23rem;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+}
+
+/* --------------------------------Pagina 3 --------------------------------*/
+.page3-background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/page3-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    position: absolute;
+}
+
+.horse{
+    animation-timing-function: linear;
+    animation-name: horse;
+    animation-duration: 12s;
+}
+
+.track{
+  min-height: 80px;
+  width: 100vw;
+}
+
+.all-tracks-hidden {
+  display: none;
+}
+
+.track-hidden {
+  display: none;
+}
+
+.track-active {
+  display: block;
+}
+
+.horse-hidden {
+  display: none;
+}
+
+@keyframes horse {
+
+  0% {
+      transform: translate(0,0);
+    }
+    100% {
+        transform: translate(1000px,0);
+    }
+  }
+
+  .btn-empezar-carrera2{
+    width: 23rem;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 470px;
+    top: 350px;
+  }
+
+.all-tracks-custom{
+    width: 90vw;
+    margin: 0px;
+}
+
+.track1{
+  margin-top: 250px;
+  background-image: url(./images/track1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.horse1{
+    position: absolute;
+    bottom: 360px;
+    height: 140px;
+    width: 220px;
+}
+.track2{
+  background-image: url(./images/track2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.horse2{
+    position: absolute;
+    bottom: 270px;
+    height: 140px;
+    width: 220px;
+}
+.track3{
+  background-image: url(./images/track3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.horse3{
+    position: absolute;
+    bottom: 170px;
+    height: 140px;
+    width: 220px;
+}
+.track4{
+  background-image: url(./images/track4.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.horse4{
+    position: absolute;
+    bottom: 70px;
+    height: 140px;
+    width: 220px;
+}
+
+/* --------------------------------Pagina 4 --------------------------------*/
+.page4-background{
+    background-image: url(./images/page1-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.card-custom{
+    position: relative;
+    top: 150px;
+    left: 200px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+}
+
+.btn-volver-correr{
+    width: 23rem;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 450px;
+    top: 500px;
+    color: white;
+}
