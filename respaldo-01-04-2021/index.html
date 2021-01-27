@@ -23,6 +23,14 @@
             <div class="col-6">
                 <div class="info-game card row pb-4 align-items-center border-0">
                     <img src="./styles/images/logo.svg" alt="Logo" class="logo mt-4">
+                    <div class="input-group-custom input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">¿Cuantas personas van a
+                                jugar?</span>
+                        </div>
+                        <input type="number" class="form-control" aria-label="Small"
+                            aria-describedby="inputGroup-sizing-sm" id="how-many-horses" onfocus=this.value=''>
+                    </div>
                     <button onclick="addNumber()" class="btn-start-game btn" id="stratGame">Jugar</button>
                     <a class="about-us" href="./about-us.html">Conoce sobre nosotros</a>
                 </div>
@@ -45,24 +53,24 @@
                         <div class="row">
                             <div class="col-6">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Cuota:</li>
+                                    <li class="list-group-item">Peso:</li>
                                     <li class="list-group-item">Raza:</li>
                                     <li class="list-group-item">Velocidad:</li>
                                 </ul>
                             </div>
                             <div class="col-6">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">3:1</li>
+                                    <li class="list-group-item" id="idWeightH1"></li>
                                     <li class="list-group-item" id="idBreedH1"></li>
                                     <li class="list-group-item" id="idSpeedH1"></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card-body">
-                            <button class="btn-choose-horse btn" onclick="chooseHorse1()" id="chooseHorse1">Elegir
+                            <!-- <button class="btn-choose-horse btn" onclick="chooseHorse1()" id="chooseHorse1">Elegir
                                 caballo</button>
-                            <button class="btn-bet-horse btn btn-disabled" onclick="betOnHorse1()" id="betOnHorse1">Apostarle a este
-                                caballo</button>
+                            <button class="btn-bet-horse btn btn-disabled" id="betOnHorse1">Apostarle a este
+                                caballo</button> -->
                         </div>
                     </div>
                     <!-- fin card cabbalo 1-->
@@ -77,24 +85,24 @@
                         <div class="row">
                             <div class="col-6">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Cuota:</li>
+                                    <li class="list-group-item">Peso:</li>
                                     <li class="list-group-item">Raza:</li>
                                     <li class="list-group-item">Velocidad:</li>
                                 </ul>
                             </div>
                             <div class="col-6">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">2:1</li>
+                                    <li class="list-group-item" id="idWeightH2"></li>
                                     <li class="list-group-item" id="idBreedH2"></li>
                                     <li class="list-group-item" id="idSpeedH2"></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card-body">
-                            <button class="btn-choose-horse btn" onclick="chooseHorse2()" id="chooseHorse2">Elegir
+                            <!-- <button class="btn-choose-horse btn" onclick="chooseHorse2()" id="chooseHorse2">Elegir
                                 caballo</button>
-                            <button class="btn-bet-horse btn btn-disabled" onclick="betOnHorse2()" id="betOnHorse2">Apostarle a este
-                                caballo</button>
+                            <button class="btn-bet-horse btn btn-disabled" id="betOnHorse2">Apostarle a este
+                                caballo</button> -->
                         </div>
                     </div>
                     <!-- fin card cabbalo 2-->
@@ -109,24 +117,24 @@
                         <div class="row">
                             <div class="col-6">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Cuota:</li>
+                                    <li class="list-group-item">Peso:</li>
                                     <li class="list-group-item">Raza:</li>
                                     <li class="list-group-item">Velocidad:</li>
                                 </ul>
                             </div>
                             <div class="col-6">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">3:1</li>
+                                    <li class="list-group-item" id="idWeightH3"></li>
                                     <li class="list-group-item" id="idBreedH3"></li>
                                     <li class="list-group-item" id="idSpeedH3"></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card-body">
-                            <button class="btn-choose-horse btn" onclick="chooseHorse3()" id="chooseHorse3">Elegir
+                            <!-- <button class="btn-choose-horse btn" onclick="chooseHorse3()" id="chooseHorse3">Elegir
                                 caballo</button>
-                            <button class="btn-bet-horse btn btn-disabled" onclick="betOnHorse3()" id="betOnHorse3">Apostarle a este
-                                caballo</button>
+                            <button class="btn-bet-horse btn btn-disabled" id="betOnHorse3">Apostarle a este
+                                caballo</button> -->
                         </div>
                     </div>
                     <!-- fin card cabbalo 3-->
@@ -141,24 +149,24 @@
                         <div class="row">
                             <div class="col-6">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Cuota:</li>
+                                    <li class="list-group-item">Peso:</li>
                                     <li class="list-group-item">Raza:</li>
                                     <li class="list-group-item">Velocidad:</li>
                                 </ul>
                             </div>
                             <div class="col-6">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">2:1</li>
+                                    <li class="list-group-item" id="idWeightH4"></li>
                                     <li class="list-group-item" id="idBreedH4"></li>
                                     <li class="list-group-item" id="idSpeedH4"></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card-body">
-                            <button class="btn-choose-horse btn" onclick="chooseHorse4()" id="chooseHorse4">Elegir
+                            <!-- <button class="btn-choose-horse btn" onclick="chooseHorse4()" id="chooseHorse4">Elegir
                                 caballo</button>
-                            <button class="btn-bet-horse btn btn-disabled" onclick="betOnHorse4()" id="betOnHorse4">Apostarle a este
-                                caballo</button>
+                            <button class="btn-bet-horse btn btn-disabled" id="betOnHorse4">Apostarle a este
+                                caballo</button> -->
                         </div>
                     </div>
                     <!-- fin card cabbalo 4-->
@@ -180,103 +188,7 @@
         </div>
     </div>
 
-<!-------------------------------- Pagina 2.1 -------------------------------->
-<div class="bets-horse1-background display-none" id="betsHorse1">
-    <div class="container align-items-center">
-        <div class="row justify-content-end">
-            <div class="col-4 apuestas-cuaderno p-4 justify-content-center">
-                <h1>Ingresa tu apuesta</h1>
-                <input type="text" placeholder="Nombre" class="info" id="name1">
-                <input type="text" placeholder="Apuesta en dolares" class="info" id="bet1">
-                <br></br>
-                <button class="btn btn-add-bet" onclick="addBet1()">Agregar apuesta</button>
-                <table class="table" id="betsTable1">
-                    <thead>
-                      <tr>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Apuesta</th>
-                      </tr>
-                    </thead>
-                  </table>
-                <button class="btn btn-go-back" onclick="goBack1()">Volver</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-------------------------------- Pagina 2.2 -------------------------------->
-<div class="bets-horse2-background display-none" id="betsHorse2">
-    <div class="container align-items-center">
-        <div class="row justify-content-end">
-            <div class="col-4 apuestas-cuaderno p-4 justify-content-center">
-                <h1>Ingresa tu apuesta</h1>
-                <input type="text" placeholder="Nombre" class="info" id="name2">
-                <input type="text" placeholder="Apuesta en dolares" class="info" id="bet2">
-                <br></br>
-                <button class="btn btn-add-bet" onclick="addBet2()">Agregar apuesta</button>
-                <table class="table" id="betsTable2">
-                    <thead>
-                      <tr>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Apuesta</th>
-                      </tr>
-                    </thead>
-                  </table>
-                <button class="btn btn-go-back" onclick="goBack2()">Volver</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-------------------------------- Pagina 2.3 -------------------------------->
-<div class="bets-horse3-background display-none" id="betsHorse3">
-    <div class="container align-items-center">
-        <div class="row justify-content-end">
-            <div class="col-4 apuestas-cuaderno p-4 justify-content-center">
-                <h1>Ingresa tu apuesta</h1>
-                <input type="text" placeholder="Nombre" class="info" id="name3">
-                <input type="text" placeholder="Apuesta en dolares" class="info" id="bet3">
-                <br></br>
-                <button class="btn btn-add-bet" onclick="addBet3()">Agregar apuesta</button>
-                <table class="table" id="betsTable3">
-                    <thead>
-                      <tr>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Apuesta</th>
-                      </tr>
-                    </thead>
-                  </table>
-                <button class="btn btn-go-back" onclick="goBack3()">Volver</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-------------------------------- Pagina 2.4 -------------------------------->
-<div class="bets-horse4-background display-none" id="betsHorse4">
-    <div class="container align-items-center">
-        <div class="row justify-content-end">
-            <div class="col-4 apuestas-cuaderno p-4 justify-content-center">
-                <h1>Ingresa tu apuesta</h1>
-                <input type="text" placeholder="Nombre" class="info" id="name4">
-                <input type="text" placeholder="Apuesta en dolares" class="info" id="bet4">
-                <br></br>
-                <button class="btn btn-add-bet" onclick="addBet4()">Agregar apuesta</button>
-                <table class="table" id="betsTable4">
-                    <thead>
-                      <tr>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Apuesta</th>
-                      </tr>
-                    </thead>
-                  </table>
-                <button class="btn btn-go-back" onclick="goBack4()">Volver</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-------------------------------- Pagina 3 -------------------------------->
+    <!-------------------------------- Pagina 3 -------------------------------->
     <div class="page3-background col display-none" id="page3">
         <div class="all-tracks-hidden all-tracks-custom">
             <!-- Caballo 1 -->
@@ -318,12 +230,11 @@
                     <th scope="col">#</th>
                     <th scope="col">Caballo</th>
                     <th scope="col">Tiempo</th>
-                    <th scope="col">Nombre apostador</th>
-                    <th scope="col">Apuesta</th>
-                    <th scope="col">Ganancias</th>
                   </tr>
                 </thead>
+    
               </table>
+
         </div>
         <div class="row">
             <button class="btn-volver-correr btn bg-danger" onclick="location.reload()">Volver a correr</button>

@@ -7,7 +7,7 @@
 }
 
 .page-border{
-    height: 2890px;
+    height: 2740px;
     width: 95vw;
     position: absolute;
     border: 25px solid #e1e1e1;
@@ -36,10 +36,10 @@ p{
 .orange-block{
     position: absolute;
     top: 650px;
-    height: 700px;
+    height: 600px;
     width: 900px;
     background-color: #B7723F;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .title1{
@@ -75,7 +75,7 @@ p{
     background-size: cover;
     height: 350px;
     position: absolute;
-    top: 1800px;
+    top: 1660px;
     z-index: 1;
 }
 

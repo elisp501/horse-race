@@ -133,85 +133,6 @@ h1{
     margin-left: 10px;
 }
 
-/* Pagina 2.1 */
-.bets-horse1-background{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(./images/bets-1.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px;
-}
-
-.apuestas-cuaderno{
-    margin-right: 140px;
-    margin-top:60px;
-    height: 80vh;
-}
-
-.info{
-    border: none;
-    outline: none;
-    color: black;
-    font-weight: 600;
-    font-size: 15px;
-    padding: 10px;
-    background: transparent;
-    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff;
-    border-radius: 5px;
-    margin-top: 20px;
-    width: 300px;
-}
-
-.btn-go-back{
-    background-color: rgb(129, 129, 129);
-    color:white;
-    width: 150px;
-    border-radius: 12px;
-    font-size: 15px;
-    position: absolute;
-    bottom:10px;
-    right: 10px;
-}
-
-.btn-add-bet{
-   background-color: rgb(202, 202, 202);
-   width: 300px;
-   color: rgb(97, 97, 97);
-   margin-bottom: 30px;
-}
-
-/* Pagina 2.2 */
-.bets-horse2-background{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(./images/bets-2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px;
-}
-
-/* Pagina 2.3 */
-.bets-horse3-background{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(./images/bets-3.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px;
-}
-
-/* Pagina 2.4 */
-.bets-horse4-background{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(./images/bets-4.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px;
-}
-
-
 /* --------------------------------Pagina 3 --------------------------------*/
 .page3-background{
     width: 100vw;
@@ -230,7 +151,7 @@ h1{
 }
 
 .track{
-  height: 120px;
+  min-height: 80px;
   width: 100vw;
 }
 
@@ -291,13 +212,11 @@ h1{
   background-image: url(./images/track2.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  position: absolute;
-  bottom: 190px;
 }
 
 .horse2{
     position: absolute;
-    bottom: 70px;
+    bottom: 270px;
     height: 140px;
     width: 220px;
 }
@@ -305,13 +224,11 @@ h1{
   background-image: url(./images/track3.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  position: absolute;
-  bottom: 80px;
 }
 
 .horse3{
     position: absolute;
-    bottom: 60px;
+    bottom: 170px;
     height: 140px;
     width: 220px;
 }
@@ -319,8 +236,6 @@ h1{
   background-image: url(./images/track4.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  position: absolute;
-  top:560px;
 }
 
 .horse4{
